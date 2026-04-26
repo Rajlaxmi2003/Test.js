@@ -80,10 +80,46 @@ OUTPUT
 */
 
 
-let someNumber= 33
+/*let someNumber= 33
 let stringNumber =String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
 OUTPUT
 33
 string
+
+*/
+
+
+
+//-------OPERATIONS----------
+/*
+let value = 3
+let negValue = -value
+console.log(negValue);
+console.log(2+2);
+console.log(3-2);
+console.log(2*2);
+console.log(2**3); // power
+console.log(6/3);
+console.log(6%5);
+
+OUTPUT
+-3
+4
+1
+4
+8
+2
+1
+*/
+
+
+let str1= "hello"
+let str2= " hitesh"
+let str3 = str1 + str2;
+console.log(str3);
+
+
+//TO LEARN MORE
+//https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
