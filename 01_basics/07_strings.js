@@ -79,6 +79,12 @@ const gameName2= "hitesh hc kumar"
 console.log(gameName2.split(' '));
 
 
-
 const gameName3= "hitesh_hc_kumar"
 console.log(gameName3.split('_'));
+/*
+OUTPUT:
+[ 'hitesh', 'hc', 'kumar' ]
+[ 'hitesh', 'hc', 'kumar' ]
+[ 'hitesh', 'hc', 'kumar' ]
+
+*/
