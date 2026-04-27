@@ -112,7 +112,7 @@ OUTPUT
 The day is 1 and the month is: 4
 
 */
-
+/*
 let newDate= new Date()
 console.log(newDate.toLocaleString('default',{
     weekday:"long"
@@ -125,3 +125,12 @@ console.log(newDate.toLocaleString('default',{
 OUTPUT
 Monday
 April
+
+*/
+
+
+const newDate= new Date();
+console.log(`The day is ${newDate.toLocaleString('default',{
+    weekday:"long"})} and the month is: ${newDate.toLocaleString('default',{
+    month:"long"
+})}`);
