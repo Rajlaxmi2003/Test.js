@@ -135,4 +135,4 @@ console.log(`The day is ${newDate.toLocaleString('default',{
     month:"long"
 })}`);
 OUTPUT
-The day is Monday and the month is: April
+//The day is Monday and the month is: April
