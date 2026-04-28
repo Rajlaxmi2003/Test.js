@@ -80,7 +80,6 @@ console.log(a);
 
 
 
-
 //++++++++++++++SCOPE LEVEL AND MINI HOISTING++++++++++++
 
 function one(){
@@ -107,3 +106,9 @@ if(true)
     
 }
 //console.log(username);
+
+
+
+
+
+
