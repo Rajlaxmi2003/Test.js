@@ -36,9 +36,9 @@ const chai={
 //console.log(chai);
 console.log(Object.getOwnPropertyDescriptor(chai,"name"));
 
- Object.defineProperty(chai,'name',{
+    Object.defineProperty(chai,'name',{
 //     writable:false,
-     enumerable:false
+    enumerable:false
  })
 console.log(Object.getOwnPropertyDescriptor(chai,"name"));
 
